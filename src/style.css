@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    border: none;
+    font-family: monospace;
+}
+
+body {
+    background-color: rgb(59, 70, 100);
+    color: white;
+   
+}
+
+.calc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    margin-top: 50px;
+}
+
+header {
+    display: flex;
+    gap: 320px;
+    align-items: center;
+    
+}
+
+header div {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+header div p {
+    font-size: 12px;
+    font-weight: bold;
+}
+header .theme {
+   display: flex;
+   gap: 3px;
+   flex-direction: column;
+   
+}
+header .theme p {
+    letter-spacing: 3px;
+    font-size: 15px;
+}
+
+header .theme .theme-choice-bg {
+    background-color: #252C45;
+    width: 70px;
+    height: 3vh;
+    border-radius: 15px;
+}
+
+header .theme .theme-choice-bg div {
+    width: 15px;
+    background-color: #a33025;
+    height: 15px;
+    border-radius: 8px;
+    margin: 0 5px;
+}
+
+
+.total {
+    background-color: #171F32;
+    width: 37%;
+    height: 15vh;
+    border-radius: 10px;
+}
+
+.total p {
+    float: right;
+    font-size: 60px;
+    font-weight: bolder;
+    padding: 30px 20px 0;
+}
+
+.calculator {
+    width: 37%;
+    background-color: rgb(36, 45, 69);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 32px 0;
+    border-radius: 10px;
+    
+}
+
+.calculator div {
+    display: flex;
+    gap: 25px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    height: fit-content;
+    
+}
+
+.calculator div button {
+    cursor: pointer;
+    padding: 13px 40px;
+    font-size: 30px;
+    border-radius: 10px;
+    color: rgb(69, 76, 87);
+    border-bottom: 3px solid rgba(181, 165, 159, 0.8);
+    
+}
+
+
+.calculator div .delete {
+   padding: 16px 30px;
+   font-size: 25px;
+   font-weight: bolder;
+   background-color: rgb(101, 113, 153);
+   border-bottom: 3px solid rgba(68, 77, 105);
+   color: #fff;
+   
+}
+
+.calculator .reset-equals {
+    display: flex;
+    gap: 28px;
+    width: 100%;
+}
+
+.calculator .reset-equals button {
+    width: 42%;
+}
+
+.calculator .reset-equals .reset {
+  background-color: rgb(101, 113, 153);
+  color: #fff;
+  border-bottom: 3px solid rgb(68, 77, 105);
+}
+
+.calculator .reset-equals .equals {
+    background-color: #D13E30;
+    border-bottom: 3px solid #a33025;
+    color: white;
+}
+
+/* @media screen and (min-width: 768px) {
+
+     
+} */
+
+
